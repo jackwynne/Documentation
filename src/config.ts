@@ -81,7 +81,7 @@ export const SIDEBAR: Sidebar = {
     "Power BI": [
       { text: "Activity Logs", link: "en/power-bi/activity-logs" },
       { text: "Shape Maps", link: "en/power-bi/shape-maps" },
-      { text: "Import Multiple CSV or Excel", link: "en/power-bi/reading-multiple-CSV-and-Excel-files" },
+      { text: "Import Multiple CSV or Excel Files", link: "en/power-bi/reading-multiple-CSV-or-Excel-files" },
     ],
     // "Create T3 App": [
     //   { text: "Introduction", link: "en/introduction" },

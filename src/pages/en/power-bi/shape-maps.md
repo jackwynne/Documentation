@@ -5,11 +5,11 @@ layout: ../../../layouts/docs.astro
 lang: en
 ---
 
-# Custom Shape Files
+## Custom Shape Files
 See https://learn.microsoft.com/en-us/power-bi/visuals/desktop-shape-map#use-custom-maps
 Need to convert the file to a TopoJson using https://mapshaper.org/
 
-# Editing Custom Shape Maps
+## Editing Custom Shape Maps
 Once you have a shape file you can edit the shapes using https://mapshaper.org/.
 To merge shapes select them and click split:
 ![image.png](/.attachments/image-92f9e5bf-0591-496d-afa6-9c0393ca16fc.png)
