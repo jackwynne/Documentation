@@ -5,8 +5,6 @@ layout: ../../../layouts/docs.astro
 lang: en
 ---
 
-[[_TOC_]]
-
 # Custom Shape Files
 See https://learn.microsoft.com/en-us/power-bi/visuals/desktop-shape-map#use-custom-maps
 Need to convert the file to a TopoJson using https://mapshaper.org/
