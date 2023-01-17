@@ -49,7 +49,7 @@ export const ALGOLIA = {
   apiKey: "892c4647b96fe1b3d0b7d8de1c5b5e40",
 };
 
-export type OuterHeaders = "Create T3 App" | "Usage" | "Deployment";
+export type OuterHeaders = "Power BI" | "Create T3 App" | "Usage" | "Deployment";
 
 export type SidebarItem<TCode extends KnownLanguageCode = KnownLanguageCode> = {
   text: string;
@@ -78,6 +78,9 @@ export const SIDEBAR: Sidebar = {
   //   Usage: [{ text: "Miljövariabler", link: "sv/usage/env-variables" }],
   // },
   en: {
+    "Power BI": [
+      { text: "Shape Maps", link: "en/power-bi/shape-maps" },
+    ],
     "Create T3 App": [
       { text: "Introduction", link: "en/introduction" },
       { text: "Why CT3A?", link: "en/why" },
