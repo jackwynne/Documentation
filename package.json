@@ -18,7 +18,7 @@
   "dependencies": {
     "@algolia/client-search": "^4.14.2",
     "@astrojs/image": "^0.10.0",
-    "@astrojs/mdx": "^0.12.1",
+    "@astrojs/mdx": "^0.14.0",
     "@astrojs/sitemap": "^1.0.0",
     "@docsearch/css": "^3.3.0",
     "@docsearch/react": "^3.3.0",
