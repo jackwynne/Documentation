@@ -26,15 +26,15 @@ export type Frontmatter = {
 
 export const KNOWN_LANGUAGES = {
   // Add more languages here
-  // sv: "Svenska",
-  // ar: "العربية",
   en: "English",
-  // fr: "Français",
-  // pt: "Português",
-  // ru: "Русский",
-  // no: "Norsk",
-  // pl: "Polski",
-  // "zh-hans": "简体中文",
+  sv: "Svenska",
+  ar: "العربية",
+  fr: "Français",
+  pt: "Português",
+  ru: "Русский",
+  no: "Norsk",
+  pl: "Polski",
+  "zh-hans": "简体中文",
 } as const;
 export type KnownLanguageCode = keyof typeof KNOWN_LANGUAGES;
 
@@ -111,6 +111,30 @@ export const SIDEBAR: Sidebar = {
     //   { text: "Docker", link: "en/deployment/docker" },
     // ],
   },
+  sv: {
+    "Power BI": [],
+  },
+  ar: {
+    "Power BI": [],
+  },
+  fr: {
+    "Power BI": [],
+  },
+  pt: {
+    "Power BI": [],
+  },
+  ru: {
+    "Power BI": [],
+  },
+  no: {
+    "Power BI": [],
+  },
+  pl: {
+    "Power BI": [],
+  },
+  "zh-hans": {
+    "Power BI": [],
+  },
 };
 
 export const SIDEBAR_HEADER_MAP: Record<
@@ -118,9 +142,28 @@ export const SIDEBAR_HEADER_MAP: Record<
   Record<OuterHeaders, string>
 > = {
   // Translate the sidebar's "outer headers" here
-  // sv: {
-  //   "Create T3 App": "Create T3 App",
-  //   Usage: "Användarguide",
-  //   Deployment: "Deployment",
-  // },
+  sv: {
+    "Power BI": "Power BI",
+  },
+  ar: {
+    "Power BI": "Power BI",
+  },
+  fr: {
+    "Power BI": "Power BI",
+  },
+  pt: {
+    "Power BI": "Power BI",
+  },
+  ru: {
+    "Power BI": "Power BI",
+  },
+  no: {
+    "Power BI": "Power BI",
+  },
+  pl: {
+    "Power BI": "Power BI",
+  },
+  "zh-hans": {
+    "Power BI": "Power BI",
+  },
 };
