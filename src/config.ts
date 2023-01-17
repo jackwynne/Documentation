@@ -38,7 +38,7 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export type KnownLanguageCode = keyof typeof KNOWN_LANGUAGES;
 
-export const GITHUB_EDIT_URL = `https://github.com/t3-oss/create-t3-app/tree/next/www`;
+export const GITHUB_EDIT_URL = `https://github.com/jackwynne/documentation/tree/main`;
 
 export const COMMUNITY_INVITE_URL = `https://t3.gg/discord`;
 
@@ -82,6 +82,7 @@ export const SIDEBAR: Sidebar = {
       { text: "Activity Logs", link: "en/power-bi/activity-logs" },
       { text: "Shape Maps", link: "en/power-bi/shape-maps" },
       { text: "Import Multiple CSV or Excel Files", link: "en/power-bi/reading-multiple-CSV-or-Excel-files" },
+      { text: "Other Recommendations", link: "en/other-recs" },
     ],
     // "Create T3 App": [
     //   { text: "Introduction", link: "en/introduction" },
