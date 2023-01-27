@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { SIDEBAR, SIDEBAR_HEADER_MAP, type OuterHeaders } from "../../config";
 import { getIsRtlFromLangCode, getLanguageFromURL } from "../../languages";
 
-type SlugType = "" | "usage" | "deployment";
+type SlugType = "" | "usage" | "deployment" | "power-bi";
 type Entry = { text: string; link: string };
 
 export default function BreadCrumbs() {
@@ -16,6 +16,8 @@ export default function BreadCrumbs() {
         return "Usage";
       case "deployment":
         return "Deployment";
+      case "power-bi":
+        return "Power BI";
     }
   };
   const slug =

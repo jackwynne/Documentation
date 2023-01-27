@@ -5,14 +5,13 @@ import { Frontmatter, SIDEBAR } from "../../../config";
 import { getLanguageFromURL } from "../../../languages";
 
 const frontmatter: Frontmatter = {
-  title: "Utilisation",
+  title: "Power BI",
   layout: "docs",
-  description:
-    "Apprenez comment utiliser les différentes technologies de la stack T3.",
+  description: "Learn how to use Power BI.",
 };
 
 const lang = getLanguageFromURL(Astro.url.pathname);
-const sidebarEntries = SIDEBAR[lang]["Usage"]!;
+const sidebarEntries = SIDEBAR[lang]["Power BI"]!;
 const files = await Astro.glob("./*.{md,mdx,astro}");
 ---
 
