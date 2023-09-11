@@ -6,7 +6,7 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://documentation-zeta-nine.vercel.app',
+  site: "https://documentation-zeta-nine.vercel.app",
   integrations: [
     starlight({
       title: "Docs",
@@ -18,6 +18,17 @@ export default defineConfig({
           label: "Power BI",
           autogenerate: {
             directory: "powerbi",
+          },
+        },
+        {
+          label: "Windows",
+          autogenerate: {
+            directory: "windows",
+          },
+        },{
+          label: "Spark",
+          autogenerate: {
+            directory: "spark",
           },
         },
         // {
