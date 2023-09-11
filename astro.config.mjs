@@ -6,11 +6,12 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://documentation-zeta-nine.vercel.app',
   integrations: [
     starlight({
       title: "Docs",
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/jackwynne/documentation",
       },
       sidebar: [
         {
