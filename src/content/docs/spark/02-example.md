@@ -8,7 +8,7 @@ lang: en
 
 This notebook is a simple example of working with data in Azure Databricks.
 
-If you are reading this on the wiki, you can find the working Notebook in the Azure Databricks environment at the following path: [/Shared/Getting Started with Azure Databricks - A Census Data Example](https://adb-5195694350474952.12.azuredatabricks.net/?o=5195694350474952#notebook/3876325875947739)
+If you are reading this on the wiki, you can find the working Notebook at the following path: [Getting Started with Azure Databricks - A Census Data Example](/Getting%20Started%20with%20Azure%20Databricks%20-%20A%20Census%20Data%20Example.ipynb)
 
 ### Explore the ADLS folders
 
