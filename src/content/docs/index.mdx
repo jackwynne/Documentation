@@ -1,46 +1,65 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Docs Home
+description: Random docs
 template: splash
 hero:
   title: |
-    Welcome to Starlight with
+    Welcome to the
     <span
       class="font-black text-transparent
         bg-clip-text bg-gradient-to-b
         from-accent-700 to-accent-400
         dark:from-accent-500 dark:to-accent-200"
     >
-      Tailwind
+      Docs
     </span>
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: A random collection of documentation
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-      variant: primary
-    - text: Read the Starlight docs
+    - text: Read the Starlight docs (used to build this site)
       link: https://starlight.astro.build
       icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, Card, CardGrid } from "@astrojs/starlight/components";
+
+## Sections
+
+<CardGrid>
+  <Card title="Power BI" icon="pencil">
+    Getting started with Power BI, code blocks and how to use Shape Maps
+    <LinkCard
+      title="Power BI Docs"
+      href="/powerbi/01-getting-started-with-power-bi/"
+    />
+  </Card>
+  <Card title="Windows" icon="add-document">
+    Add Markdown or MDX files to `src/content/docs` to create new pages.
+    <LinkCard title="Windows Docs" href="/windows/01-wsl/" />
+  </Card>
+  <Card title="Spark" icon="setting">
+    Getting started using PySpark, worked example and new project code
+    <CardGrid>
+      <LinkCard title="Getting Started" href="/spark/01-getting-started/" />
+      <LinkCard title="New Project Code" href="/spark/03-new-project-code/" />
+    </CardGrid>
+  </Card>
+</CardGrid>
 
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Update content" icon="pencil">
+    Edit `src/content/docs/index.mdx` to see this page change.
+  </Card>
+  <Card title="Add new content" icon="add-document">
+    Add Markdown or MDX files to `src/content/docs` to create new pages.
+  </Card>
+  <Card title="Configure your site" icon="setting">
+    Edit your `sidebar` and other config in `astro.config.mjs`.
+  </Card>
+  <Card title="Read the docs" icon="open-book">
+    Learn more in [the Starlight Docs](https://starlight.astro.build/).
+  </Card>
 </CardGrid>
