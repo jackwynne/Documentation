@@ -11,8 +11,9 @@ export default defineConfig({
     starlight({
       title: "Docs",
       editLink: {
-        baseUrl: 'https://github.com/jackwynne/documentation/edit/main/',
+        baseUrl: "https://github.com/jackwynne/documentation/edit/main/",
       },
+      lastUpdated: true,
       social: {
         github: "https://github.com/jackwynne/documentation",
       },
@@ -28,7 +29,8 @@ export default defineConfig({
           autogenerate: {
             directory: "windows",
           },
-        },{
+        },
+        {
           label: "Spark",
           autogenerate: {
             directory: "spark",
