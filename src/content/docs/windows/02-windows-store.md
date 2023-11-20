@@ -10,7 +10,7 @@ You may need to navigate to the folder in Windows Explorer before running the co
 ## How
 
 ```powershell
-> Add-AppxPackage -Path L:\Software\Windows\Microsoft.WindowsStore_12107.1001.15.0_neutral___8wekyb3d8bbwe.AppxBundle
+> Add-AppxPackage -Path C:\Downloads\Microsoft.WindowsStore_12107.1001.15.0_neutral___8wekyb3d8bbwe.AppxBundle
 ```
 
 ### Add Winget
