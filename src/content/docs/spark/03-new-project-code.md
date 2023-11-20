@@ -39,6 +39,8 @@ import re
 ### Rename all columns with no special characters
 
 ```python
+import re
+
 def renameAllColumns(df):
     oldColumnNames = df.columns
     newColumnNames = list(map(lambda name: name[0].casefold() + re.sub('[^a-zA-Z0-9\n\.]', '', name[1:]), oldColumnNames))
