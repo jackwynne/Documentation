@@ -10,6 +10,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Docs",
+      editLink: {
+        baseUrl: 'https://github.com/jackwynne/documentation/edit/main/',
+      },
       social: {
         github: "https://github.com/jackwynne/documentation",
       },
@@ -31,17 +34,6 @@ export default defineConfig({
             directory: "spark",
           },
         },
-        // {
-        // 	label: 'Guides',
-        // 	items: [
-        // 		// Each item here is one entry in the navigation menu.
-        // 		{ label: 'Example Guide', link: '/guides/example/' },
-        // 	],
-        // },
-        // {
-        // 	label: 'Reference',
-        // 	autogenerate: { directory: 'reference' },
-        // },
       ],
 
       customCss: ["./src/tailwind.css"],
