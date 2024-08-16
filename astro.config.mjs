@@ -25,6 +25,12 @@ export default defineConfig({
           },
         },
         {
+          label: "Azure",
+          autogenerate: {
+            directory: "azure",
+          },
+        },
+        {
           label: "Windows",
           autogenerate: {
             directory: "windows",
