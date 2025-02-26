@@ -21,7 +21,7 @@ sudo rm /etc/resolv.conf
 sudo bash -c 'echo "nameserver 10.150.0.117" > /etc/resolv.conf'
 sudo bash -c 'echo "[network]" > /etc/wsl.conf'
 sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
-sudo chattr +i /etc/resolv.conf
+sudo chattr -f +i /etc/resolv.conf
 ```
 
 ### Git
