@@ -14,9 +14,9 @@ export default defineConfig({
         baseUrl: "https://github.com/jackwynne/documentation/edit/main/",
       },
       lastUpdated: true,
-      social: {
-        github: "https://github.com/jackwynne/documentation",
-      },
+      social: [
+        { icon: 'github', label: 'GitHub', href: "https://github.com/jackwynne/documentation"},
+      ],
       sidebar: [
         {
           label: "Power BI",
