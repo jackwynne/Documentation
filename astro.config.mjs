@@ -4,9 +4,14 @@ import tailwind from "@astrojs/tailwind";
 
 import vercel from "@astrojs/vercel/serverless";
 
+import tailwindcss from "@tailwindcss/vite";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://documentation-zeta-nine.vercel.app",
+
+  // output: "server",
+  // adapter: vercel(),
   integrations: [
     starlight({
       title: "Docs",
@@ -44,12 +49,17 @@ export default defineConfig({
         },
       ],
 
-      customCss: ["./src/tailwind.css"],
+      customCss: [
+        // Path to your Tailwind base styles:
+        './src/styles/global.css',
+      ],
     }),
-    tailwind({
-      applyBaseStyles: false,
-    }),
+    // tailwind({
+    //   applyBaseStyles: false,
+    // }),
   ],
-  // output: "server",
-  // adapter: vercel(),
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
