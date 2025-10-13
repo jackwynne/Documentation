@@ -57,7 +57,7 @@ def get_folder_sizes(base_path):
     df = pd.DataFrame(sizes, columns=['Folder', 'Size (MB)'])
     return df
 ```
-## Run Code
+### Run Code
 ```python
 files = get_folder_sizes("/lakehouse/default/Files")
 display(files)
